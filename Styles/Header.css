@@ -1,0 +1,133 @@
+.Header{
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.LeftSection{
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-menu{
+  height: 23px;
+  padding: 24px;
+  cursor: pointer;
+}
+
+.youtube-logo{
+  height: 20px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.MiddleSection{
+  flex: 1;
+  margin: 0px 30px 0px 50px;
+  max-width: 750px;
+  display: flex;
+  align-items: center;
+}
+
+.Search-Box{
+  flex: 1;
+  height: 36px;
+  font-size: 18px;
+  border-color: rgb(204, 204, 204);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+  padding-left: 12px;
+  width: 0;
+}
+
+.Search-Box::placeholder{
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.Search-icon{
+  height: 25px;
+  padding: 5px;
+}
+
+.search-button{
+  height: 40px;
+  width: 60px;
+  border-width: 1px;
+  border-color:rgb(204, 204, 204) ;
+  border-style: solid;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.15s;
+  margin-left: -1px;
+  border-radius: 2px;
+}
+
+.search-button:hover{
+  background-color: rgb(231, 228, 228);
+}
+
+.search-button:active{
+  background-color: rgb(204, 204, 204);
+}
+
+.voice-search-icon{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(245, 245, 245 );
+}
+
+.voice-search-icon-button{
+  height: 30px;
+  margin-top: 4px;
+}
+
+.RightSection{
+  width: auto;
+  gap: 10px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 29px;
+  margin-right: 24px;
+  flex-shrink: 0;
+}
+
+.upload-icon{
+  height: 24px;
+  cursor: pointer;
+}
+
+.youtube-apps{
+  height: 24px;
+  cursor: pointer;
+}
+
+.notifications{
+  height: 24px;
+  cursor: pointer;
+}
+
+.my-channel{
+  height: 32px;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.upload-icon, .youtube-apps, .notifications, .my-channel {
+  transition: transform 0.2s ease-in-out;
+}
+
+.upload-icon:hover, .youtube-apps:hover, .notifications:hover, .my-channel:hover {
+  transform: scale(1.1);
+}
+
+
